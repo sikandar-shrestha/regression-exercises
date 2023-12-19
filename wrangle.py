@@ -96,9 +96,9 @@ def split_data(df):
     # Take a look at your split datasets
 
     print(f"""
-    train -> {train.shape}
-    validate -> {validate.shape}
-    test -> {test.shape}""")
+       train  ----> {train.shape}
+    validate  ----> {validate.shape}
+        test  ----> {test.shape}""")
     
     return train, validate, test
     
